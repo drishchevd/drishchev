@@ -1,0 +1,16 @@
+//Сложение двух чисел
+#include <iostream>
+using namespace std;
+int main()
+{
+int chislo1;
+int chislo2;
+int summa;
+cout << "Vvedite pervoe chislo: " << endl;
+cin >> chislo1;
+cout << "Vvedite vtoroye chislo: " << endl;
+cin >> chislo2;
+summa = chislo1 + chislo2;
+cout << "Summa ravna: " << summa << endl;
+return 0;
+}
