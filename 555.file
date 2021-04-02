@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a, b;
+cout << "Vvedite poshaluyasta dva chisla\n";
+cin >> a >> b;
+cout << "Summa " << a << " i " << b << " ravna " << a + b << endl;
+cout << "Raznost " << a << " i " << b << " ravna " << a - b <<
+endl;
+cout << "Proizvedeniye " << a << " i " << b << " ravno " << a * b
+<< endl;
+cout << "Chastnoye " << a << " i " << b << " ravno " << a / b <<
+endl;
+return 0;
+}
