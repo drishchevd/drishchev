@@ -1,0 +1,13 @@
+#include <string>
+#include <iostream>
+using namespace std;
+int main()
+{
+string a;
+cout << "Как Вас зовут?\n" ;
+cin >> a;
+cout << "Привет, ";
+cout << a << "!\n";
+system("pause");
+return 0;
+}
